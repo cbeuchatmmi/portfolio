@@ -50,7 +50,7 @@
 
                 <h3 class="ml-12 mb-10 text-3xl font-bold text-blue-600 mt-10">Maquette</h3>
                 <div class="text-center">
-                    <img class=" m-auto mt-10" src="../assets/maquette_UC.jpg" alt="">
+                    <img class=" m-auto mt-10" src="" alt="">
                     <p class="m-auto">Maquette Unified Champions site principal</p>
                     <img class=" m-auto mt-10" src="../assets/maquette_UCB.jpg" alt="">
                     <p class="m-auto">Maquette Unified Champions site de la boutique</p>
