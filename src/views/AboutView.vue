@@ -107,7 +107,7 @@ export default {
       </div>
 
       <div class="m-auto">
-        <img class=" " src="../assets/LogoPC.png" alt="">
+        <img class=" " src="" alt="">
       </div>
 
     </div>
