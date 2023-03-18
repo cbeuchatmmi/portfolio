@@ -52,7 +52,7 @@
                 <div class="text-center">
                     <img class=" m-auto mt-10" src="" alt="">
                     <p class="m-auto">Maquette Unified Champions site principal</p>
-                    <img class=" m-auto mt-10" src="../assets/maquette_UCB.jpg" alt="">
+                    <img class=" m-auto mt-10" src="" alt="">
                     <p class="m-auto">Maquette Unified Champions site de la boutique</p>
 
                 </div>
