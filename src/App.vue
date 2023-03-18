@@ -14,7 +14,6 @@ import Logo from "@/components/svg/logo.vue";
           <RouterLink to="/" class=" text-3xl text-center text-blue-600 mr-10">About</RouterLink>
           <RouterLink to="/" class=" text-3xl text-center text-blue-600 mr-10">Mes projets</RouterLink>
           <RouterLink to="/" class=" text-3xl text-center text-blue-600 mr-10">Contact</RouterLink>
-          <RouterLink to="/archery" class=" text-3xl text-center text-blue-600 mr-10">Archery</RouterLink>
 
         </nav>
         <div class="w-full">
