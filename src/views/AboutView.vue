@@ -67,7 +67,7 @@ export default {
     },
     downloadImage() {
       // Récupérer l'image depuis le dossier assets
-      fetch('../assets/Color.png')
+      fetch('../assets/CV_Corentin_Beuchat.pdf')
         .then(response => response.blob())
         .then(blob => {
           // Créer une URL pour l'objet Blob
@@ -75,7 +75,7 @@ export default {
           // Créer un élément <a> pour télécharger l'image
           const link = document.createElement('a');
           link.href = url;
-          link.setAttribute('download', 'Color.png');
+          link.setAttribute('download', 'CV_Corentin_Beuchat.pdf');
           // Cliquer sur le lien pour déclencher le téléchargement
           link.click();
         });
@@ -88,41 +88,44 @@ export default {
 
 
 
+<template class="bg-black">
+  <div class=" bg-black text-white w-screen lg:h-screen  ">
+    <div class="text-center md:flex items-center  ">
 
 
-
-
-<template>
-  <div class=" bg-black text-white ">
-    <div class="text-center lg:flex items-center align-middle">
-
-      <div class="text-center  m-auto ">
+      <div class="mb:w-1/3   p-10">
         <h1 class="text-2xl font-light mb-1">Bonjour, je suis Corentin BEUCHAT</h1>
         <h2 class="text-5xl font-bold font-anton ">Développeur web</h2>
         <div class="mt-4 flex align-middle justify-center mb-10">
           <a href="#"><img class="h-10 m-2" src="../assets/logo_langage/mail.png" alt="Mail"></a>
-          <a href="#"><img class="h-10 m-2" src="../assets/logo_langage/LinkedIn.png" alt="LinkedIn"></a>
-          <a href="#"><img class="h-10 m-2" src="../assets/logo_langage/github-blanc.png" alt="Github"></a>
+          <a href="https://www.linkedin.com/in/corentin-beuchat-593b91223/"><img class="h-10 m-2"
+              src="../assets/logo_langage/LinkedIn.png" alt="LinkedIn"></a>
+          <a href="https://github.com/cbeuchatmmi"><img class="h-10 m-2" src="../assets/logo_langage/github-blanc.png"
+              alt="Github"></a>
         </div>
       </div>
 
-      <div class="m-auto">
-        <img class=" " src="" alt="">
-      </div>
-
+      <img class="md:w-1/2 mx-auto my-auto " src="../assets/bienvenue.jpg" alt="">
     </div>
+
+
   </div>
 
+  <!-- <div class="m-auto">
+                                                      <img class=" " src="../assets/Color.png" alt="">
+                                                      </div> -->
 
-  <div class=" bg-gray-200">
-    <h2 class="text-4xl text-center text-blue-600 ">À Propos de moi</h2>
+
+  <div class=" bg-gray-200 h-screen">
+    <h2 class="text-4xl text-center text-blue-600 font-bold ">À Propos de moi</h2>
     <div class="flex justify-items-center ">
-      <p class="m-4 w-1/2">Je m'appelle Corentin Beuchat, je suis étudiant développeur en 2ème année de MMI à Montbéliard.
+      <p class="m-4 w-1/2 font-bold">Je m'appelle Corentin Beuchat, je suis étudiant développeur en 2ème année de MMI à
+        Montbéliard.
         Je suis spécialisé dans le développement de sites web notamment avec Wordpress ou des Framework Js.</p>
       <img class="m-auto" src="../assets/LogoCB_bgb.png" alt="zdq">
     </div>
 
-    <div class="flex align-middle justify-center ">
+    <div class=" xl:flex align-middle justify-center ">
       <div class="m-12">
         <h3 class="text-2xl text-center text-blue-600">Les Langages</h3>
         <div class="flex align-middle justify-center">
@@ -195,18 +198,15 @@ export default {
       <line x1="-1.31134e-7" y1="1.5" x2="724" y2="1.49994" stroke="#fff" stroke-width="3"></line>
     </svg>
     <div class="flex align-middle justify-center">
-      <a href=""><img class="h-10 m-8" src="../assets/logo_langage/mail.png" alt="Mail"></a>
-      <a href=""><img class="h-10 m-8" src="../assets/logo_langage/LinkedIn.png" alt="LinkedIn"></a>
-      <a href=""><img class="h-10 m-8" src="../assets/logo_langage/github-blanc.png" alt="Github"></a>
+      <a href="#"><img class="h-10 m-8" src="../assets/logo_langage/mail.png" alt="Mail"></a>
+      <a href="https://www.linkedin.com/in/corentin-beuchat-593b91223/"><img class="h-10 m-8"
+          src="../assets/logo_langage/LinkedIn.png" alt="LinkedIn"></a>
+      <a href="https://github.com/cbeuchatmmi"><img class="h-10 m-8" src="../assets/logo_langage/github-blanc.png"
+          alt="Github"></a>
 
     </div>
   </div>
 </template>
-
-
-
-
-
 
 <style>
 @media (min-width: 1024px) {
