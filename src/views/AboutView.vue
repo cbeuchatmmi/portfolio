@@ -111,9 +111,6 @@ export default {
 
   </div>
 
-  <!-- <div class="m-auto">
-                                                      <img class=" " src="../assets/Color.png" alt="">
-                                                      </div> -->
 
 
   <div class=" bg-gray-200 h-screen">
@@ -121,7 +118,7 @@ export default {
     <div class="flex justify-items-center ">
       <p class="m-4 w-1/2 font-bold">Je m'appelle Corentin Beuchat, je suis étudiant développeur en 2ème année de MMI à
         Montbéliard.
-        Je suis spécialisé dans le développement de sites web notamment avec Wordpress ou des Framework Js.</p>
+        Je suis spécialisé dans le développement de sites web notamment avec Wordpress ou des Framework Javascript.</p>
       <img class="m-auto" src="../assets/LogoCB_bgb.png" alt="zdq">
     </div>
 
