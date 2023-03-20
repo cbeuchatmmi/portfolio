@@ -24,7 +24,7 @@ export default {
       </RouterLink>
       <div class="ml-auto  hidden items-center justify-start gap-12 overflow-hidden md:flex">
         <div>
-          <RouterLink to="#apropos" class=" text-3xl text-center text-blue-600 mr-10">About
+          <RouterLink to="#apropos" class=" text-3xl text-center text-blue-600 mr-10">À Propos
           </RouterLink>
           <RouterLink to="/" class=" text-3xl text-center text-blue-600 mr-10">Mes projets</RouterLink>
           <RouterLink to="/" class=" text-3xl text-center text-blue-600 mr-10">Contact</RouterLink>
