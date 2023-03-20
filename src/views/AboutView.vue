@@ -161,7 +161,7 @@ export default {
 
   <div class=" bg-black ">
 
-    <h2 class=" text-4xl text-center text-blue-500"> Mes Projets </h2>
+    <h2 class=" text-4xl text-center text-blue-500 font-bold"> Mes Projets </h2>
 
     <div class="text-white flex flex-wrap mt-3">
       <router-link v-for='projet in listeProjet' :key='projet.id' :to="projet.lien">
@@ -181,7 +181,7 @@ export default {
 
   <div class=" bg-blue-600">
 
-    <h2 class="text-4xl text-white text-center mb-2"> Me Contacter</h2>
+    <h2 class="text-4xl text-white text-center mb-2 font-bold"> Me Contacter</h2>
     <FormulaireContact />
     <div class="bg-blue-600">
       <h3>dz</h3>
