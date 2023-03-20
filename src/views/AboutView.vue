@@ -89,7 +89,7 @@ export default {
 
 
 <template class="bg-black">
-  <div class=" bg-black text-white w-screen lg:h-screen  ">
+  <div class=" bg-black text-white w-screen xl:h-screen  ">
     <div class="text-center md:flex items-center  ">
 
 
@@ -113,7 +113,7 @@ export default {
 
 
 
-  <div class=" bg-gray-200 h-screen">
+  <div class=" bg-gray-200 xl:h-screen">
     <h2 class="text-4xl text-center text-blue-600 font-bold ">À Propos de moi</h2>
     <div class="flex justify-items-center ">
       <p class="m-4 w-1/2 font-bold">Je m'appelle Corentin Beuchat, je suis étudiant développeur en 2ème année de MMI à
@@ -143,16 +143,20 @@ export default {
         </div>
       </div>
     </div>
-    <h3 class="text-2xl text-center text-blue-600">Les Bibliothèque / Framework</h3>
-    <div class="flex align-middle justify-center">
-      <img class="h-20 m-8" src="../assets/logo_langage/ChartJS.png" alt="ChartJS">
-      <img class="h-20 m-8" src="../assets/logo_langage/ThreeJs.png" alt="ThreeJS">
-      <img class="h-20 m-8" src="../assets/logo_langage/tailwind.png" alt="TailwindCSS">
-    </div>
-    <div class="flex items-center justify-center ">
-      <button class=" border-4 p-2 text-lg rounded-lg border-blue-600 text-blue-600 " @click="downloadImage">Télécharger
-        mon
-        CV</button>
+    <div class="xl:flex">
+      <div class="xl:w-1/2">
+        <h3 class="text-2xl text-center text-blue-600">Les Bibliothèque / Framework</h3>
+        <div class="flex align-middle justify-center">
+          <img class="h-20 m-8" src="../assets/logo_langage/ChartJS.png" alt="ChartJS">
+          <img class="h-20 m-8" src="../assets/logo_langage/ThreeJs.png" alt="ThreeJS">
+          <img class="h-20 m-8" src="../assets/logo_langage/tailwind.png" alt="TailwindCSS">
+        </div>
+      </div>
+      <div class="xl:w-1/2 flex items-center justify-center">
+        <button class=" border-4 p-2 text-lg rounded-lg border-blue-600 text-blue-600 " @click="downloadImage">Télécharger
+          mon
+          CV</button>
+      </div>
     </div>
   </div>
 
