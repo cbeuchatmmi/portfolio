@@ -13,8 +13,8 @@
         <div class="">
 
             <h2 class=" ml-12 mb-10 text-4xl font-bold text-blue-600">Contexte</h2>
-            <p class="pl-10 md:pr-80 pr-4">TikTak est un site de montre réalisé lors de notre SAE301. Nous devions décider
-                de la charte graphique d'un site assez élégant pour vendre des montre connectées de luxe.
+            <p class="pl-10 md:pr-80 pr-4">TikTak est un site de montre réalisé lors de notre SAE301. Nous devions réaliser
+                un site de vente en ligne de montre connecté avec un design élégant.
             </p>
         </div>
         <div class="">
@@ -22,27 +22,27 @@
             <div class="">
 
                 <h3 class=" ml-12 mb-10 text-3xl font-bold text-blue-600">Design </h3>
-                <p class="pl-10 md:pr-80 pr-4">
+                <p class="pl-10 md:pr-[50rem] pr-4">Pour correspondre à un site élégant j'ai décidé opter pour une charte
+                    graphique assez sobre avec comme couleurs principales deux nuances de marron-gris et du noir et blanc.
+                    La typographie quant à elle j'ai préféré prendre quelque chose d'assez fin et sans serif.
                 </p>
-                <img class="m-auto mt-2" src="" alt="">
-                <h3 class="ml-12 mb-10 text-3xl font-bold text-blue-600">Typographie</h3>
-                <p class="pl-10 md:pr-80 pr-4">
-                </p>
-                <img class="bg-white m-auto mt-10" src="" alt="">
+                <img class="m-auto mt-10 mb-10" src="../assets/tt_design.jpg" alt="identité visuelle">
+
 
 
 
                 <h3 class="ml-12 mb-10 text-3xl font-bold text-blue-600 mt-10">Maquette</h3>
                 <div class="text-center">
-                    <img class=" m-auto mt-10 w-1/2" src="" alt="">
-                    <p class="m-auto"></p>
-                    <img class=" m-auto mt-10 w-1/2" src="" alt="">
-                    <p class="m-auto"></p>
+                    <img class=" m-auto mt-10 w-1/2" src="../assets/tt_maquette.jpg" alt="">
 
                 </div>
 
                 <h3 class="ml-12 mb-10 text-3xl font-bold text-blue-600">Technique</h3>
-
+                <p class="pl-10 md:pr-[50rem] pr-4">Nous avons été contraint pour le développement du site d'utiliser VueJS3
+                    comme framework JavaScript, TailwindCSS pour le CSS et pour la base de données Supabase. Il fallait
+                    aussi pourvoir se connecter et pour cela nous devions utiliser trois types d'authentification une
+                    adresse mail, un compte Google ou un compte Facebook.
+                </p>
             </div>
 
             <div>
@@ -51,21 +51,21 @@
                     <div class="w-1/3 m-2 mx-auto">
                         <h4 class="text-center "></h4>
                         <a href="">
-                            <img class=" " src="" alt="">
+                            <img class=" " src="../assets/tt_Home.jpg" alt="">
                         </a>
 
                     </div>
                     <div class="w-1/3 m-2 mx-auto">
                         <h4 class="text-center"></h4>
                         <a href="">
-                            <img class=" " src="" alt="">
+                            <img class=" " src="../assets/tt_Personnaliser.jpg" alt="">
                         </a>
 
                     </div>
                     <div class="w-1/3 m-2 mx-auto">
                         <h4 class="text-center"></h4>
                         <a href="">
-                            <img class=" " src="" alt="">
+                            <img class=" " src="../assets/tt_Connection.jpg" alt="">
                         </a>
 
                     </div>

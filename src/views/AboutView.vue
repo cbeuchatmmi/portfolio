@@ -113,12 +113,13 @@ export default {
 
 
 
-  <div class=" bg-gray-200 xl:h-screen">
+  <div class=" bg-gray-200 ">
     <h2 class="text-4xl text-center text-blue-600 font-bold ">À Propos de moi</h2>
     <div class="flex justify-items-center ">
-      <p class="m-4 w-1/2 font-bold">Je m'appelle Corentin Beuchat, je suis étudiant développeur en 2ème année de MMI à
+      <p class="m-4 w-1/2 font-bold">Je m'appelle Corentin Beuchat, je suis étudiant développeur en troisième année de BUT
+        Métier du Multimédia et de l'Internet à
         Montbéliard.
-        Je suis spécialisé dans le développement de sites web notamment avec Wordpress ou des Framework Javascript.</p>
+        Je suis spécialisé dans le développement de sites web.</p>
       <img class="m-auto" src="../assets/LogoCB_bgb.png" alt="zdq">
     </div>
 
@@ -130,7 +131,9 @@ export default {
           <img class="h-20 m-8" src="../assets/logo_langage/css.png" alt="CSS">
           <img class="h-20 m-8" src="../assets/logo_langage/js.png" alt="JS">
           <img class="h-20 m-8" src="../assets/logo_langage/vuejs.png" alt="VueJS">
+          <img class="h-20 m-8" src="../assets/logo_langage/Nuxtjs.png" alt="NuxtJS">
         </div>
+
       </div>
 
       <div class="m-12">
@@ -141,11 +144,16 @@ export default {
           <img class="h-20 m-8" src="../assets/logo_langage/github.png" alt="Github">
           <img class="h-20 m-8" src="../assets/logo_langage/figma.png" alt="Figma">
         </div>
+        <div class="flex align-middle justify-center">
+          <img class="h-20 m-8" src="../assets/logo_langage/Nodejs.png" alt="WordPress">
+          <img class="h-20 m-8" src="../assets/logo_langage/MySql.png" alt="VSCode">
+
+        </div>
       </div>
     </div>
     <div class="xl:flex">
       <div class="xl:w-1/2">
-        <h3 class="text-2xl text-center text-blue-600">Les Bibliothèque / Framework</h3>
+        <h3 class="text-2xl text-center text-blue-600">Les Bibliothèques</h3>
         <div class="flex align-middle justify-center">
           <img class="h-20 m-8" src="../assets/logo_langage/ChartJS.png" alt="ChartJS">
           <img class="h-20 m-8" src="../assets/logo_langage/ThreeJs.png" alt="ThreeJS">
